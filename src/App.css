@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-form {
+  margin: 80px 0;
+  text-align: left;
+}
+
+.App-form-wrap {
+  margin: 40px auto;
+  width: 80%;
+  max-width: 350px;
+}
+
+/* Input field */
+
+.App-input {
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App-input:focus {
+  outline: none;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-input.invalid {
+  border: 1px solid #d04040;
+  box-shadow: 0 1px 4px rgba(104, 32, 32, 0.25);
+}
+
+.App-input-error {
+  position: relative;
+  color: #a04040;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 16px 0 0 4px;
+  margin-bottom: -32px;
+  text-align: left;
+}
+
+/* DropDown field */
+
+.App-dropdown-select {
+  height: 20px;
+  margin: 10px 0 0 10px;
+}
+
+.App-dropdown-div {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: -30px;
+  background-color: white;
+  background-image: url(./arrow.png);
+  background-size: 16px 8px;
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+}
+
+.App-dropdown:focus {
+  outline: none;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-dropdown-list {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.App-dropdown-list > div {
+  padding: 6px 12px;
+}
+
+.App-dropdown-list > div:hover {
+  background-color: #f8f8f8;
+}
+
+.App-dropdown-list > div:first-child {
+  margin-top: 6px;
+}
+
+/* Keyframes */
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
