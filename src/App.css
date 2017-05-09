@@ -111,6 +111,45 @@
   margin-top: 6px;
 }
 
+/* Button */
+
+.App-button {
+  background-color: white;
+  background-image: url(./checked.svg);
+  background-size: 16px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: content-box;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.App-button:hover {
+  background-color: #fafafa;
+}
+
+.App-button:focus {
+  outline: none;
+}
+
+.App-button.clicked {
+  background-color: #e8e8e8;
+  border: 1px solid #c8c8c8;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.App-button-label {
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
 /* Keyframes */
 
 @keyframes App-logo-spin {

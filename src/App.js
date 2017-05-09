@@ -5,6 +5,7 @@ import './App.css';
 
 import Input from './Input';
 import DropDown from './DropDown';
+import Button from './Button';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Input />
           <Input />
           <DropDown />
+          <Button />
         </form>
       </div>
     );
